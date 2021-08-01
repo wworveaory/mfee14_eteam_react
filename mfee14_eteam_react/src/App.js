@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 import Nav from './pages/nav/nav-index'
 import Index from './pages/index/index'
@@ -11,7 +12,6 @@ function App() {
     <>
       <Router>
         <Nav />
-        <Index />
         <>
           <Switch>
             <Route path="/about">
