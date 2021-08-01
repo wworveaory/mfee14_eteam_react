@@ -10,7 +10,7 @@ function App() {
   return (
     //路由器
     <>
-      <Router>
+      <Router basename='/'>
         <Nav />
         <>
           <Switch>
