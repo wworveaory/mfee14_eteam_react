@@ -11,6 +11,7 @@ function App() {
     <>
       <Router>
         <Nav />
+        <Index />
         <>
           <Switch>
             <Route path="/about">
