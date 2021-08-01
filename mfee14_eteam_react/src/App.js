@@ -10,7 +10,7 @@ function App() {
   return (
     //路由器
     <>
-      <Router basename='/'>
+      <Router basename='/mfee14_eteam_react'>
         <Nav />
         <>
           <Switch>
