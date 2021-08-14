@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mfee14_eteam_react/static/css/main.26ce41b4.chunk.css",
-    "main.js": "/mfee14_eteam_react/static/js/main.c069224b.chunk.js",
-    "main.js.map": "/mfee14_eteam_react/static/js/main.c069224b.chunk.js.map",
+    "main.css": "/mfee14_eteam_react/static/css/main.7ec71d60.chunk.css",
+    "main.js": "/mfee14_eteam_react/static/js/main.aa361181.chunk.js",
+    "main.js.map": "/mfee14_eteam_react/static/js/main.aa361181.chunk.js.map",
     "runtime-main.js": "/mfee14_eteam_react/static/js/runtime-main.ee5f454d.js",
     "runtime-main.js.map": "/mfee14_eteam_react/static/js/runtime-main.ee5f454d.js.map",
     "static/js/2.4dc2502a.chunk.js": "/mfee14_eteam_react/static/js/2.4dc2502a.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.6c141b56.chunk.js": "/mfee14_eteam_react/static/js/3.6c141b56.chunk.js",
     "static/js/3.6c141b56.chunk.js.map": "/mfee14_eteam_react/static/js/3.6c141b56.chunk.js.map",
     "index.html": "/mfee14_eteam_react/index.html",
-    "static/css/main.26ce41b4.chunk.css.map": "/mfee14_eteam_react/static/css/main.26ce41b4.chunk.css.map",
+    "static/css/main.7ec71d60.chunk.css.map": "/mfee14_eteam_react/static/css/main.7ec71d60.chunk.css.map",
     "static/js/2.4dc2502a.chunk.js.LICENSE.txt": "/mfee14_eteam_react/static/js/2.4dc2502a.chunk.js.LICENSE.txt",
     "static/media/LOGO.3e2e5fc5.svg": "/mfee14_eteam_react/static/media/LOGO.3e2e5fc5.svg",
     "static/media/about us.e5de56d9.svg": "/mfee14_eteam_react/static/media/about us.e5de56d9.svg",
@@ -24,6 +24,7 @@
     "static/media/coffeecup.a20a5d22.svg": "/mfee14_eteam_react/static/media/coffeecup.a20a5d22.svg",
     "static/media/colorshlip.0afa17dc.png": "/mfee14_eteam_react/static/media/colorshlip.0afa17dc.png",
     "static/media/about.css": "/mfee14_eteam_react/static/media/contact.f5677a7c.jpg",
+    "static/media/dessert-1.377eea96.jpg": "/mfee14_eteam_react/static/media/dessert-1.377eea96.jpg",
     "static/media/herrosection.541b7d53.jpg": "/mfee14_eteam_react/static/media/herrosection.541b7d53.jpg",
     "static/media/herrosection02.441287c2.jpg": "/mfee14_eteam_react/static/media/herrosection02.441287c2.jpg",
     "static/media/herrosection03.5f8f3130.jpg": "/mfee14_eteam_react/static/media/herrosection03.5f8f3130.jpg",
@@ -41,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.ee5f454d.js",
     "static/js/2.4dc2502a.chunk.js",
-    "static/css/main.26ce41b4.chunk.css",
-    "static/js/main.c069224b.chunk.js"
+    "static/css/main.7ec71d60.chunk.css",
+    "static/js/main.aa361181.chunk.js"
   ]
 }
