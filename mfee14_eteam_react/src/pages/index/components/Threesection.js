@@ -7,6 +7,9 @@ import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 // import phonetwosection from '../img/phone-twosection.jpg'
 import longcolorship from '../img/long-colorship.png'
 import phonethreesection from '../img/phone-threesection.jpg'
+import dessert1 from '../img/index/newproduct/dessert-1.jpg'
+
+
 
 function Threesection() {
   const [users, setUsers] = useState([])
@@ -234,18 +237,19 @@ function Threesection() {
           <div className="index-box">
             <div className="index-box1">
               <div className="index-box1-pic">
-                <img
+                {/* <img
                   className="index-newproduct-hover-1"
-                  src={`http://localhost:3000/img/index/newproduct/${
+                  src={`http://localhost:3000/mfee14_eteam_react/img/index/newproduct/${
                     users.length > 0 && users[0].iImg
                   }`}
                   alt="123"
-                />
+                /> */}
+                <img   className="index-newproduct-hover-1" src={dessert1} alt="dessert1" />
               </div>
               <div className="index-item-1">
                 <div className="index-item-2">
                   <div className="index-product-card-text1">
-                    {users.length > 0 && users[0].iName}
+                  提拉米蘇 一人份盒裝
                   </div>
                   <div className="indexlove">
                     <svg
@@ -269,10 +273,10 @@ function Threesection() {
                 </div>
                 {/* //// */}
                 <div className="index-product-card-text2 index-letter-1-height-20">
-                  {users.length > 0 && users[0].iDiscr}
+                經典的提拉米蘇經過改良，使用大量牛奶取代鮮奶油，搭配自製手指餅乾。口感香濃綿密 入口餘香繚繞 唇齒留香!
                 </div>
                 <div className="index-product-card-text3">
-                  特價:{users.length > 0 && users[0].iPrice}元
+                  特價:750元
                 </div>
 
                 <Link to="#/" className="index-card-button">
@@ -284,7 +288,7 @@ function Threesection() {
               <div className="index-box1-pic">
                 <img
                   className="index-newproduct-hover-2"
-                  src={`http://localhost:3000/img/index/newproduct/${
+                  src={`http://localhost:3000/mfee14_eteam_react/img/index/newproduct/${
                     users.length > 0 && users[1].iImg
                   }`}
                   alt="123"
@@ -330,7 +334,7 @@ function Threesection() {
               <div className="index-box1-pic">
                 <img
                   className="index-newproduct-hover-3"
-                  src={`http://localhost:3000/img/index/newproduct/${
+                  src={`http://localhost:3000/mfee14_eteam_react/img/index/newproduct/${
                     users.length > 0 && users[2].iImg
                   }`}
                   alt="123"
@@ -376,7 +380,7 @@ function Threesection() {
               <div className="index-box1-pic">
                 <img
                   className="index-newproduct-hover-4"
-                  src={`http://localhost:3000/img/index/newproduct/${
+                  src={`http://localhost:3000/mfee14_eteam_react/img/index/newproduct/${
                     users.length > 0 && users[3].iImg
                   }`}
                   alt="123"
@@ -422,7 +426,7 @@ function Threesection() {
               <div className="index-box1-pic">
                 <img
                   className="index-newproduct-hover-5"
-                  src={`http://localhost:3000/img/index/newproduct/${
+                  src={`http://localhost:3000/mfee14_eteam_react/img/index/newproduct/${
                     users.length > 0 && users[4].iImg
                   }`}
                   alt="123"
@@ -468,7 +472,7 @@ function Threesection() {
               <div className="index-box1-pic">
                 <img
                   className="index-newproduct-hover-6"
-                  src={`http://localhost:3000/img/index/newproduct/${
+                  src={`http://localhost:3000/mfee14_eteam_react/img/index/newproduct/${
                     users.length > 0 && users[5].iImg
                   }`}
                   alt="123"

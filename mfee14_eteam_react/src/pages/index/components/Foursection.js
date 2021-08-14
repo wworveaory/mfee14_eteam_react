@@ -185,7 +185,7 @@ function Foursection() {
             <div className="index-box2-pic">
               <img
                 className="index-newproduct-hot-1"
-                src={`http://localhost:3000/img/index/generalproduct/${
+                src={`http://localhost:7000/img/index/generalproduct/${
                   general.length > 0 && general[0].iImg
                 }`}
                 alt="123"
@@ -232,7 +232,7 @@ function Foursection() {
           <div className="index-box2-pic">
             <img
               className="index-newproduct-hot-2"
-              src={`http://localhost:3000/img/index/generalproduct/${
+              src={`http://localhost:7000/img/index/generalproduct/${
                 general.length > 0 && general[1].iImg
               }`}
               alt="123"
@@ -279,7 +279,7 @@ function Foursection() {
             <div className="index-box2-pic">
               <img
                 className="index-newproduct-hot-3"
-                src={`http://localhost:3000/img/index/generalproduct/${
+                src={`http://localhost:7000/img/index/generalproduct/${
                   general.length > 0 && general[2].iImg
                 }`}
                 alt="123"
