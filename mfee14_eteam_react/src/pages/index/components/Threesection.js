@@ -8,6 +8,12 @@ import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 import longcolorship from '../img/long-colorship.png'
 import phonethreesection from '../img/phone-threesection.jpg'
 import dessert1 from '../img/index/newproduct/dessert-1.jpg'
+import dessert2 from '../img/index/newproduct/dessert-2.jpg'
+import dessert3 from '../img/index/newproduct/dessert-3.jpg'
+import dessert4 from '../img/index/newproduct/dessert-4.jpg'
+import dessert5 from '../img/index/newproduct/dessert-5.jpg'
+import dessert6 from '../img/index/newproduct/dessert-6.jpg'
+
 
 
 
@@ -249,7 +255,7 @@ function Threesection() {
               <div className="index-item-1">
                 <div className="index-item-2">
                   <div className="index-product-card-text1">
-                  提拉米蘇 一人份盒裝
+                  提拉米蘇
                   </div>
                   <div className="indexlove">
                     <svg
@@ -286,18 +292,20 @@ function Threesection() {
             </div>
             <div className="index-box1">
               <div className="index-box1-pic">
-                <img
+                {/* <img
                   className="index-newproduct-hover-2"
                   src={`http://localhost:3000/mfee14_eteam_react/img/index/newproduct/${
                     users.length > 0 && users[1].iImg
                   }`}
                   alt="123"
-                />
+                /> */}
+                <img   className="index-newproduct-hover-2" src={dessert2} alt="dessert2" />
               </div>
               <div className="index-item-1">
                 <div className="index-item-2">
                   <div className="index-product-card-text1">
-                    {users.length > 0 && users[1].iName}
+                    {/* {users.length > 0 && users[1].iName} */}
+                    經典小塔禮盒 / 4入
                   </div>
                   <div className="indexlove-2">
                     <svg
@@ -320,10 +328,13 @@ function Threesection() {
                   </div>
                 </div>
                 <div className="index-product-card-text2 index-letter-1-height-20">
-                  {users.length > 0 && users[1].iDiscr}
+                  {/* {users.length > 0 && users[1].iDiscr} */}
+                  〔蒙布朗卡士達巧克力塔〕 秋收栗子餡搭配濃郁黃金卡士達，豐富的蛋奶栗香，與60%巧可栗甘納許一起享用，甘甜美味！
+
                 </div>
                 <div className="index-product-card-text3">
-                  特價:{users.length > 0 && users[1].iPrice}元
+                  {/* 特價:{users.length > 0 && users[1].iPrice}元 */}
+                  特價:650元
                 </div>
                 <Link to="#/" className="index-card-button">
                   購買
@@ -332,18 +343,20 @@ function Threesection() {
             </div>
             <div className="index-box1">
               <div className="index-box1-pic">
-                <img
+                {/* <img
                   className="index-newproduct-hover-3"
                   src={`http://localhost:3000/mfee14_eteam_react/img/index/newproduct/${
                     users.length > 0 && users[2].iImg
                   }`}
                   alt="123"
-                />
+                /> */}
+                <img   className="index-newproduct-hover-3" src={dessert3} alt="dessert3" />
               </div>
               <div className="index-item-1">
                 <div className="index-item-2">
                   <div className="index-product-card-text1">
-                    {users.length > 0 && users[2].iName}
+                    {/* {users.length > 0 && users[2].iName} */}
+                    諾曼地牛奶蛋糕
                   </div>
                   <div className="index-new-product-3">
                     <svg
@@ -366,10 +379,12 @@ function Threesection() {
                   </div>
                 </div>
                 <div className="index-product-card-text2 index-letter-1-height-20">
-                  {users.length > 0 && users[2].iDiscr}
+                  {/* {users.length > 0 && users[2].iDiscr} */}
+                  簡單的外表，卻蘊藏令人驚豔的美味!口感香濃綿密 入口餘香繚繞 唇齒留香，且帶有不同的層次感，歡迎您來品嘗看看!
                 </div>
                 <div className="index-product-card-text3">
-                  特價:{users.length > 0 && users[2].iPrice}元
+                  {/* 特價:{users.length > 0 && users[2].iPrice}元 */}
+                  特價:750元
                 </div>
                 <Link to="#/" className="index-card-button">
                   購買
@@ -378,18 +393,21 @@ function Threesection() {
             </div>
             <div className="index-box1">
               <div className="index-box1-pic">
-                <img
+                {/* <img
                   className="index-newproduct-hover-4"
                   src={`http://localhost:3000/mfee14_eteam_react/img/index/newproduct/${
                     users.length > 0 && users[3].iImg
                   }`}
                   alt="123"
-                />
+                /> */}
+                <img   className="index-newproduct-hover-4" src={dessert4} alt="dessert4" />
               </div>
               <div className="index-item-1">
                 <div className="index-item-2">
                   <div className="index-product-card-text1">
-                    {users.length > 0 && users[3].iName}
+                    {/* {users.length > 0 && users[3].iName} */}
+                    森林莓果佐起士蛋糕
+
                   </div>
                   <div className="index-new-product-4">
                     <svg
@@ -412,10 +430,12 @@ function Threesection() {
                   </div>
                 </div>
                 <div className="index-product-card-text2 index-letter-1-height-20">
-                  {users.length > 0 && users[3].iDiscr}
+                  {/* {users.length > 0 && users[3].iDiscr} */}
+                  黑櫻桃、深紅櫻桃、法國酸櫻桃、藍莓! 酸甜莓果多酚，實屬值得一嚐的頂級甜點，一定要來吃看看，帶給你一天的好心情!
                 </div>
                 <div className="index-product-card-text3">
-                  特價:{users.length > 0 && users[3].iPrice}元
+                  {/* 特價:{users.length > 0 && users[3].iPrice}元 */}
+                  特價:850元
                 </div>
                 <Link to="#/" className="index-card-button">
                   購買
@@ -424,18 +444,20 @@ function Threesection() {
             </div>
             <div className="index-box1">
               <div className="index-box1-pic">
-                <img
+                {/* <img
                   className="index-newproduct-hover-5"
                   src={`http://localhost:3000/mfee14_eteam_react/img/index/newproduct/${
                     users.length > 0 && users[4].iImg
                   }`}
                   alt="123"
-                />
+                /> */}
+                <img   className="index-newproduct-hover-5" src={dessert5} alt="dessert5" />
               </div>
               <div className="index-item-1">
                 <div className="index-item-2">
                   <div className="index-product-card-text1">
-                    {users.length > 0 && users[4].iName}
+                    {/* {users.length > 0 && users[4].iName} */}
+                    純手工巧克力蛋糕
                   </div>
                   <div className="index-new-product-5 ">
                     <svg
@@ -458,10 +480,12 @@ function Threesection() {
                   </div>
                 </div>
                 <div className="index-product-card-text2 index-letter-1-height-20">
-                  {users.length > 0 && users[4].iDiscr}
+                  {/* {users.length > 0 && users[4].iDiscr} */}
+                  可可與牛奶的結合讓產品及口感具有不同層次，上層及下層是使用比利時可可量達99%皇家巧克力，帶有濃郁的咖啡香!
                 </div>
                 <div className="index-product-card-text3">
-                  特價:{users.length > 0 && users[4].iPrice}元
+                  {/* 特價:{users.length > 0 && users[4].iPrice}元 */}
+                  特價:680元
                 </div>
                 <Link to="#/" className="index-card-button">
                   購買
@@ -470,18 +494,20 @@ function Threesection() {
             </div>
             <div className="index-box1">
               <div className="index-box1-pic">
-                <img
+                {/* <img
                   className="index-newproduct-hover-6"
                   src={`http://localhost:3000/mfee14_eteam_react/img/index/newproduct/${
                     users.length > 0 && users[5].iImg
                   }`}
                   alt="123"
-                />
+                /> */}
+                <img   className="index-newproduct-hover-6" src={dessert6} alt="dessert6" />
               </div>
               <div className="index-item-1">
                 <div className="index-item-2">
                   <div className="index-product-card-text1">
-                    {users.length > 0 && users[5].iName}
+                    {/* {users.length > 0 && users[5].iName} */}
+                    比利時巧克力蛋糕
                   </div>
                   <div className="index-new-product-6">
                     <svg
@@ -504,10 +530,12 @@ function Threesection() {
                   </div>
                 </div>
                 <div className="index-product-card-text2 index-letter-1-height-20">
-                  {users.length > 0 && users[5].iDiscr}
+                  {/* {users.length > 0 && users[5].iDiscr} */}
+                  台灣第一款 如香水般有豐富層次的頂級巧克力蛋糕入口前味微苦的巧克力，中段帶有濃郁的咖啡香，值得來品嘗一下!
                 </div>
                 <div className="index-product-card-text3">
-                  特價:{users.length > 0 && users[5].iPrice}元
+                  {/* 特價:{users.length > 0 && users[5].iPrice}元 */}
+                  特價:850元
                 </div>
                 <Link to="#/" className="index-card-button">
                   購買

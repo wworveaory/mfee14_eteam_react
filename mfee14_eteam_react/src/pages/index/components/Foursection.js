@@ -3,6 +3,11 @@ import $ from 'jquery'
 import '.././index.css'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 import { withRouter } from 'react-router-dom'
+import coffeebean1 from '../img/index/generalproduct/20210514120127.jpg'
+import coffeebean2 from '../img/index/generalproduct/20210514120142.jpg'
+import coffeebean3 from '../img/index/generalproduct/20210514120223.jpg'
+import coffeebean4 from '../img/index/generalproduct/20210514120256.jpg'
+
 
 // import phoneherrosection from '../img/phone-herrosection.jpg'
 
@@ -183,18 +188,20 @@ function Foursection() {
         <div className="index-box2">
           <div className="index-box2-group">
             <div className="index-box2-pic">
-              <img
+              {/* <img
                 className="index-newproduct-hot-1"
                 src={`http://localhost:7000/img/index/generalproduct/${
                   general.length > 0 && general[0].iImg
                 }`}
                 alt="123"
-              />
+              /> */}
+              <img className="index-newproduct-hot-1" src={coffeebean1} alt=" coffeebean1" />
             </div>
             <div className="index-item-1">
               <div className="index-item-2">
                 <div className="index-product-card-text1">
-                  {general.length > 0 && general[0].iName}
+                  {/* {general.length > 0 && general[0].iName} */}
+                  日安吾愛 Bonjour, mon am
                 </div>
                 <div className="index-hot-product-1">
                   <svg
@@ -217,10 +224,12 @@ function Foursection() {
                 </div>
               </div>
               <div className="index-product-card-text2  index-letter-1-height-20">
-                {general.length > 0 && general[0].iDiscr}
+                {/* {general.length > 0 && general[0].iDiscr} */}
+                它的酸度低，醇厚甘甜即使是平價的初階咖啡機，也能調製出迷人的幸福口感，適合辦公室沖煮，或喜歡極簡生活的咖啡人使用。
               </div>
               <div className="index-product-card-text3">
-                特價:{general.length > 0 && general[0].iPrice}元
+                {/* 特價:{general.length > 0 && general[0].iPrice}元 */}
+                特價:760元
               </div>
               <Link to="#/" className="index-card-button">
                 購買
@@ -230,13 +239,14 @@ function Foursection() {
         </div>
         <div className="index-box3">
           <div className="index-box2-pic">
-            <img
+            {/* <img
               className="index-newproduct-hot-2"
               src={`http://localhost:7000/img/index/generalproduct/${
                 general.length > 0 && general[1].iImg
               }`}
               alt="123"
-            />
+            /> */}
+            <img className="index-newproduct-hot-2" src={coffeebean2} alt=" coffeebean2" />
           </div>
           <div className="index-item-1">
             <div className="index-item-2">
@@ -264,10 +274,12 @@ function Foursection() {
               </div>
             </div>
             <div className="index-product-card-text2  index-letter-1-height-20">
-              {general.length > 0 && general[1].iDiscr}
+              {/* {general.length > 0 && general[1].iDiscr} */}
+              以希臘神話中自由酒神為靈感，屬深焙咖啡豆。濃重狂放的口感伴隨著濃的香料香氣，在香醇中帶著極具個性的焦糖甜味。
             </div>
             <div className="index-product-card-text3">
-              特價:{general.length > 0 && general[1].iPrice}元
+              {/* 特價:{general.length > 0 && general[1].iPrice}元 */}
+              特價:560元
             </div>
             <Link to="#/" className="index-card-button">
               購買
@@ -277,18 +289,20 @@ function Foursection() {
         <div className="index-box4">
           <div className="aaa">
             <div className="index-box2-pic">
-              <img
+              {/* <img
                 className="index-newproduct-hot-3"
                 src={`http://localhost:7000/img/index/generalproduct/${
                   general.length > 0 && general[2].iImg
                 }`}
                 alt="123"
-              />
+              /> */}
+              <img className="index-newproduct-hot-3" src={coffeebean3} alt=" coffeebean3" />
             </div>
             <div className="index-item-1">
               <div className="index-item-2">
                 <div className="index-product-card-text1">
-                  {general.length > 0 && general[2].iName}
+                  {/* {general.length > 0 && general[2].iName} */}
+                  古典藍調Classic Blue
                 </div>
                 <div className="index-hot-product-3">
                   <svg
@@ -311,10 +325,12 @@ function Foursection() {
                 </div>
               </div>
               <div className="index-product-card-text2  index-letter-1-height-20">
-                {general.length > 0 && general[2].iDiscr}
+                {/* {general.length > 0 && general[2].iDiscr} */}
+                發想於藍調名曲Back Water Blues口感豐富的配方。就像擁有自由本質的藍調，保有傳統風味與層次感，在均衡的口感中帶著多元的特性。
               </div>
               <div className="index-product-card-text3">
-                特價:{general.length > 0 && general[1].iPrice}元
+                {/* 特價:{general.length > 0 && general[1].iPrice}元 */}
+                特價:480元
               </div>
               <Link to="#/" className="index-card-button">
                 購買
@@ -324,18 +340,20 @@ function Foursection() {
         </div>
         <div className="index-box5">
           <div className="index-box2-pic">
-            <img
+            {/* <img
               className="index-newproduct-hot-4"
               src={`http://localhost:3000/img/index/generalproduct/${
                 general.length > 0 && general[3].iImg
               }`}
               alt="123"
-            />
+            /> */}
+            <img className="index-newproduct-hot-4" src={coffeebean4} alt=" coffeebean4" />
           </div>
           <div className="index-item-1">
             <div className="index-item-2">
               <div className="index-product-card-text1">
-                {general.length > 0 && general[3].iName}
+                {/* {general.length > 0 && general[3].iName} */}
+                佛朗明哥 Flamenco
               </div>
               <div className="index-hot-product-4">
                 <svg
@@ -358,10 +376,13 @@ function Foursection() {
               </div>
             </div>
             <div className="index-product-card-text2  index-letter-1-height-20">
-              {general.length > 0 && general[3].iDiscr}
+              {/* {general.length > 0 && general[3].iDiscr} */}
+              源自西班牙的佛朗明哥節奏強烈，在火熱的氣氛下呈現無比的生命力。此款同名咖啡勁道渾厚，醇中帶甘口味接受度極高!
             </div>
             <div className="index-product-card-text3">
-              特價:{general.length > 0 && general[3].iPrice}元
+              {/* 特價:{general.length > 0 && general[3].iPrice}元 */}
+              特價:350元
+
             </div>
             <Link to="#/" className="index-card-button">
               購買
