@@ -456,8 +456,7 @@ function Nav() {
                     <g></g>
                     <g></g>
                     <g></g>
-                  </svg>
-                  登入/註冊
+                  </svg><span className='logoin-item-none'>登入/註冊</span>
                 </Link>
                 {/* /////////////////////// */}
 

@@ -398,15 +398,15 @@ table {
     text-align: center;
   }
 }
-@media screen and (min-width: 955px) and (max-width: 1200px) {
+@media screen and (min-width: 801px) and (max-width: 1200px) {
   nav .nav-navbar .nav-links .links li {
     padding: 0 2%;
   }
   .nav-logo-b {
-    width: 17.5%;
+    width: 15%;
   }
   .nav-logo-s {
-    width: 75%;
+    width: 85%;
     height: 100%;
   }
   .nav-logo-s img {
@@ -419,19 +419,47 @@ table {
     /* line-height: 55px; */
   }
   .nav-loginbar {
-    width: 19%;
+    width: 23%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
   }
+  .nav-loginbar a {
+    text-decoration: none;
+    color: #f9f9f9;
+    font-size: 12px;
+  }
+  nav .nav-navbar .nav-links .links li a {
+    height: 100%;
+    color: #f9f9f9;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .nav-icon-1 {
+    width: 30px;
+    height: 25px;
+    fill: #f9f9f9;
+  }
+  .nav-icon-2 {
+    width: 48px;
+    height: 35px;
+    fill: #f9f9f9;
+    padding-right: 5px;
+  }
+  .nav-map-item {
+    line-height: 18px;
+    padding: 0 5px;
+  }
 }
 
 @media screen and (max-width: 954px) {
-  .nav-map-item {
+  /* .nav-map-item {
     display: none;
-  }
-  .nav-coffee-indroduce-item {
+  } */
+  /* .nav-coffee-indroduce-item {
     display: none;
   }
   .nav-allproduce-item {
@@ -439,10 +467,10 @@ table {
   }
   .about-item {
     display: none;
-  }
+  } */
 
   /* ///////手機板的menu內容打開/// */
-  .nav-phone-allicon-star-close {
+  /* .nav-phone-allicon-star-close {
     display: block;
   }
   .icon-close {
@@ -459,7 +487,7 @@ table {
   }
   nav .nav-navbar .nav-links .links li a {
     font-size: 15px;
-  }
+  } */
 }
 
 @media screen and (max-width: 800px) {
